@@ -1,0 +1,156 @@
+body{
+    position: relative;
+    width: 1300px;
+    height: 700px;
+
+    /* Light blue/light-blue-100 */
+
+    background: #F3F5FC;
+}
+
+.logo{
+    width: 200px;
+    height: 80px;
+    
+    
+}
+h1{
+    color: #0A3871;
+    font-size: 30px;
+    font-family: 'Inter';
+    text-align: center;
+    margin-top: 0;
+
+    margin-bottom: 0;
+}
+h2{
+    position: absolute;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* or 48px */
+
+
+    color: #0A3871;
+}
+.textEntrada{
+    background: #d3daf0;
+    border: 0;
+    position: absolute;
+    width: 680px; 
+    height:150px;
+    left: 240px;
+    top: 250px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+}
+.text-input-salida{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    left: 1025px;
+    top: 350px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+        
+}
+.divBotones{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 240px;
+    top: 500px;
+}
+
+.divImagen{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    left: 1000px;
+    top: 40px;
+
+    /* White */
+
+    background: #FFFFFF;
+    /* shadow */
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    
+}
+
+.divEnviarR{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    position: absolute;
+    width: 5px;
+    height: 67px;
+    left: 985px;
+    top: 490px;
+
+    /* Dark blue/dark-blue-300 */
+
+
+}
+footer{
+    background: #F3F5FC;
+    position: absolute;
+    width: 1300px;
+    height: 80px;
+    left: 0;
+    bottom: 0;
+    color: #0A3871;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 32px */
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
